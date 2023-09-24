@@ -1,0 +1,9 @@
+const UserName="Ayesha"
+const accountId=2445
+let age=29
+let accountEmail="ayesha@gmail.com"
+let accountstate="Telangana"
+let accountCity="Hyderabad"
+
+console.log(accountId)
+console.table([UserName,accountId,age,accountEmail,accountstate,accountCity])

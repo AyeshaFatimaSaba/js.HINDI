@@ -29,11 +29,28 @@ myArr.shift();
 //console.log(myArr.indexOf(19));
 
 const newArr=myArr.join()
-console.log(newArr);
+//console.log(newArr);
 
-console.log(typeof newArr);
+//console.log(typeof newArr);
+
+//+++++++++splice,slice++++++++++++++++++
+
+const myn1=myArr.slice();
+//console.log("B",myArr);
+
+const myn2=myArr.splice(1,3);
+//console.log(myn2);
 
 
+//++++++++++++++Array Functions+++++++++++++++
 
+const marvel_heroes=["thor","ironman","spiderman"];
+const dc_heroes=["superman","flash","batman"];
+marvel_heroes.push(dc_heroes);
+//console.log(marvel_heroes);
 
+const_allHeroes=marvel_heroes.concat(dc_heroes);
+//console.log(const_allHeroes);
 
+const all_new_heroes=[...marvel_heroes,...dc_heroes];
+console.log(all_new_heroes);
